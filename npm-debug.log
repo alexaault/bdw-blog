@@ -1,0 +1,188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose install where, deps [ '/Users/alexaault/Documents/Sites/bdw-blog',
+4 verbose install   [ 'express',
+4 verbose install     'serve-favicon',
+4 verbose install     'morgan',
+4 verbose install     'cookie-parser',
+4 verbose install     'body-parser',
+4 verbose install     'compression',
+4 verbose install     'method-override',
+4 verbose install     'glob',
+4 verbose install     'mongoose',
+4 verbose install     'swig',
+4 verbose install     'gulp',
+4 verbose install     'gulp-sass',
+4 verbose install     'gulp-nodemon',
+4 verbose install     'gulp-livereload' ] ]
+5 verbose install where, peers [ '/Users/alexaault/Documents/Sites/bdw-blog', [] ]
+6 info preinstall bdw-blog@0.0.1
+7 verbose already installed skipping method-override@~2.3.0 /Users/alexaault/Documents/Sites/bdw-blog
+8 verbose already installed skipping glob@~4.4.1 /Users/alexaault/Documents/Sites/bdw-blog
+9 verbose already installed skipping mongoose@~3.8.20 /Users/alexaault/Documents/Sites/bdw-blog
+10 verbose already installed skipping swig@~1.4.2 /Users/alexaault/Documents/Sites/bdw-blog
+11 verbose already installed skipping gulp@~3.8.10 /Users/alexaault/Documents/Sites/bdw-blog
+12 verbose already installed skipping gulp-sass@~1.3.2 /Users/alexaault/Documents/Sites/bdw-blog
+13 verbose already installed skipping gulp-nodemon@~1.0.4 /Users/alexaault/Documents/Sites/bdw-blog
+14 silly cache add args [ 'gulp-livereload@~3.8.0', null ]
+15 verbose cache add spec gulp-livereload@~3.8.0
+16 silly cache add parsed spec { raw: 'gulp-livereload@~3.8.0',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'gulp-livereload',
+16 silly cache add   rawSpec: '~3.8.0',
+16 silly cache add   spec: '>=3.8.0 <3.9.0',
+16 silly cache add   type: 'range' }
+17 verbose addNamed gulp-livereload@>=3.8.0 <3.9.0
+18 silly addNamed semver.valid null
+19 silly addNamed semver.validRange >=3.8.0 <3.9.0
+20 silly addNameRange { name: 'gulp-livereload',
+20 silly addNameRange   range: '>=3.8.0 <3.9.0',
+20 silly addNameRange   hasData: false }
+21 silly mapToRegistry name gulp-livereload
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+25 verbose addNameRange registry:https://registry.npmjs.org/gulp-livereload not in flight; fetching
+26 verbose already installed skipping express@~4.12.0 /Users/alexaault/Documents/Sites/bdw-blog
+27 verbose request uri https://registry.npmjs.org/gulp-livereload
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 6:29:47 PM
+30 verbose request id 7d1b7b6c40b6b7ac
+31 http request GET https://registry.npmjs.org/gulp-livereload
+32 verbose already installed skipping serve-favicon@~2.2.0 /Users/alexaault/Documents/Sites/bdw-blog
+33 verbose already installed skipping morgan@~1.5.0 /Users/alexaault/Documents/Sites/bdw-blog
+34 verbose already installed skipping cookie-parser@~1.3.3 /Users/alexaault/Documents/Sites/bdw-blog
+35 verbose already installed skipping body-parser@~1.12.0 /Users/alexaault/Documents/Sites/bdw-blog
+36 verbose already installed skipping compression@~1.4.1 /Users/alexaault/Documents/Sites/bdw-blog
+37 http 200 https://registry.npmjs.org/gulp-livereload
+38 silly get cb [ 200,
+38 silly get   { date: 'Wed, 01 Apr 2015 00:29:47 GMT',
+38 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+38 silly get     etag: '"EMG5DHXJD4FCJ2VGKKTXMI9SM"',
+38 silly get     'content-type': 'application/json',
+38 silly get     'cache-control': 'max-age=60',
+38 silly get     'content-length': '34033',
+38 silly get     'accept-ranges': 'bytes',
+38 silly get     via: '1.1 varnish',
+38 silly get     age: '20',
+38 silly get     'x-served-by': 'cache-dfw1834-DFW',
+38 silly get     'x-cache': 'HIT',
+38 silly get     'x-cache-hits': '1',
+38 silly get     'x-timer': 'S1427848187.988425,VS0,VE0',
+38 silly get     vary: 'Accept',
+38 silly get     'keep-alive': 'timeout=10, max=50',
+38 silly get     connection: 'Keep-Alive' } ]
+39 verbose get saving gulp-livereload to /Users/alexaault/.npm/registry.npmjs.org/gulp-livereload/.cache.json
+40 silly addNameRange number 2 { name: 'gulp-livereload',
+40 silly addNameRange   range: '>=3.8.0 <3.9.0',
+40 silly addNameRange   hasData: true }
+41 silly addNameRange versions [ 'gulp-livereload',
+41 silly addNameRange   [ '0.1.1',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.3.2',
+41 silly addNameRange     '1.0.0',
+41 silly addNameRange     '1.0.1',
+41 silly addNameRange     '1.1.0',
+41 silly addNameRange     '1.1.1',
+41 silly addNameRange     '1.2.0',
+41 silly addNameRange     '1.3.1',
+41 silly addNameRange     '1.4.1',
+41 silly addNameRange     '1.4.2',
+41 silly addNameRange     '1.5.0',
+41 silly addNameRange     '2.0.0',
+41 silly addNameRange     '2.1.0',
+41 silly addNameRange     '2.1.1',
+41 silly addNameRange     '3.0.0',
+41 silly addNameRange     '3.0.1',
+41 silly addNameRange     '3.0.2',
+41 silly addNameRange     '3.1.0',
+41 silly addNameRange     '3.2.0',
+41 silly addNameRange     '3.3.0',
+41 silly addNameRange     '3.4.0',
+41 silly addNameRange     '3.5.0',
+41 silly addNameRange     '3.6.0',
+41 silly addNameRange     '3.7.0',
+41 silly addNameRange     '3.8.0' ] ]
+42 verbose addNamed gulp-livereload@3.8.0
+43 silly addNamed semver.valid 3.8.0
+44 silly addNamed semver.validRange 3.8.0
+45 silly mapToRegistry name gulp-livereload
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-livereload
+49 verbose addRemoteTarball https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz not in flight; adding
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz',
+50 verbose addRemoteTarball   '5992b10796e7240c1bfebd592270b3ac6dcfc39b' ]
+51 info retry fetch attempt 1 at 6:29:48 PM
+52 info attempt registry request try #1 at 6:29:48 PM
+53 http fetch GET https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz
+54 http fetch 200 https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz
+55 silly fetchAndShaCheck shasum 5992b10796e7240c1bfebd592270b3ac6dcfc39b
+56 verbose addTmpTarball /var/folders/48/d9q0hp7s7g37wwn7qb6lwxq80000gn/T/npm-26198-4c06b483/registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz not in flight; adding
+57 verbose addTmpTarball already have metadata; skipping unpack for gulp-livereload@3.8.0
+58 silly cache afterAdd gulp-livereload@3.8.0
+59 verbose afterAdd /Users/alexaault/.npm/gulp-livereload/3.8.0/package/package.json not in flight; writing
+60 verbose afterAdd /Users/alexaault/.npm/gulp-livereload/3.8.0/package/package.json written
+61 silly install resolved [ { name: 'gulp-livereload',
+61 silly install resolved     description: 'Gulp plugin for livereload.',
+61 silly install resolved     version: '3.8.0',
+61 silly install resolved     main: './index.js',
+61 silly install resolved     scripts: { test: 'mocha' },
+61 silly install resolved     repository:
+61 silly install resolved      { type: 'git',
+61 silly install resolved        url: 'git://github.com/vohof/gulp-livereload.git' },
+61 silly install resolved     license: 'MIT',
+61 silly install resolved     keywords: [ 'gulpplugin', 'livereload' ],
+61 silly install resolved     dependencies:
+61 silly install resolved      { chalk: '^0.5.1',
+61 silly install resolved        debug: '^2.1.0',
+61 silly install resolved        'event-stream': '^3.1.7',
+61 silly install resolved        'gulp-util': '^3.0.2',
+61 silly install resolved        'lodash.assign': '^3.0.0',
+61 silly install resolved        'tiny-lr': '^0.1.5' },
+61 silly install resolved     devDependencies: { mocha: '^2.0.1', sinon: '^1.12.2' },
+61 silly install resolved     gitHead: '274f575838ca5e60a39a270986be3f8e976b1640',
+61 silly install resolved     bugs: { url: 'https://github.com/vohof/gulp-livereload/issues' },
+61 silly install resolved     homepage: 'https://github.com/vohof/gulp-livereload',
+61 silly install resolved     _id: 'gulp-livereload@3.8.0',
+61 silly install resolved     _shasum: '5992b10796e7240c1bfebd592270b3ac6dcfc39b',
+61 silly install resolved     _from: 'gulp-livereload@>=3.8.0 <3.9.0',
+61 silly install resolved     _npmVersion: '2.5.1',
+61 silly install resolved     _nodeVersion: '1.3.0',
+61 silly install resolved     _npmUser: { name: 'vohof', email: 'david@jcyr.us' },
+61 silly install resolved     maintainers: [ [Object] ],
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: '5992b10796e7240c1bfebd592270b3ac6dcfc39b',
+61 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-livereload/-/gulp-livereload-3.8.0.tgz' } ]
+62 info install gulp-livereload@3.8.0 into /Users/alexaault/Documents/Sites/bdw-blog
+63 info installOne gulp-livereload@3.8.0
+64 verbose installOne of gulp-livereload to /Users/alexaault/Documents/Sites/bdw-blog not in flight; installing
+65 warn locking Error: EACCES, open '/Users/alexaault/.npm/_locks/gulp-livereload-014c400e1cee7b83.lock'
+65 warn locking     at Error (native)
+65 warn locking  /Users/alexaault/.npm/_locks/gulp-livereload-014c400e1cee7b83.lock failed { [Error: EACCES, open '/Users/alexaault/.npm/_locks/gulp-livereload-014c400e1cee7b83.lock']
+65 warn locking   errno: -13,
+65 warn locking   code: 'EACCES',
+65 warn locking   path: '/Users/alexaault/.npm/_locks/gulp-livereload-014c400e1cee7b83.lock' }
+66 verbose stack Error: Attempt to unlock /Users/alexaault/Documents/Sites/bdw-blog/node_modules/gulp-livereload, which hasn't been locked
+66 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+66 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1004:5)
+66 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1008:20
+66 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+66 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+66 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+66 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+67 verbose cwd /Users/alexaault/Documents/Sites/bdw-blog
+68 error Darwin 14.1.0
+69 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+70 error node v0.12.2
+71 error npm  v2.7.4
+72 error Attempt to unlock /Users/alexaault/Documents/Sites/bdw-blog/node_modules/gulp-livereload, which hasn't been locked
+73 error If you need help, you may report this error at:
+73 error     <https://github.com/npm/npm/issues>
+74 verbose exit [ 1, true ]
