@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+       "title":  "100 Miles To Somewhere",
+       "description": "use this for the content. It can include html.",
+       "url": "https://medium.com/re-write/100-miles-to-somewhere-b880c4a27c6a",
+       "guid": "1123", 
+       "categories": ["Category 1","Category 2","Category 3","Category 4"],  
+       "author": "Alexa Ault",  
+       "date": "Feburary 15, 2015"
+    },
+    {
+       "title":  "Design Will Never Die And Neither Will I",
+       "description": "use this for the content. It can include html.",
+       "url": "https://medium.com/re-write/design-will-never-die-and-neither-will-i-88a1dbde46e7",
+       "guid": "1123", 
+       "categories": ["Category 1","Category 2","Category 3","Category 4"],  
+       "author": "Alexa Ault",  
+       "date": "Janurary 27, 2012"
+    }
+  ]
+}
