@@ -11,5 +11,13 @@
 </head>
 <body>
   {% block content %}{% endblock %}
+  <div class="container">
+  <a href="/article"><h1>Welcome to {{ title }}</h1></a>
+  	{% block content %} {% endblock %}
+
+  </div>
+
+  <script src="/js/main.js"></script>
+  
 </body>
 </html>

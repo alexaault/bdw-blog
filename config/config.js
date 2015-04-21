@@ -9,13 +9,13 @@ var config = {
       name: 'bdw-blog'
     },
     port: 3000,
-    db: 'mongodb://localhost/bdw-blog-development'
+    db: 'mongodb://heroku_app35487756:1nab8042pott90dsqm3c323a2v@ds059651.mongolab.com:59651/heroku_app35487756'
   },
 
   test: {
     root: rootPath,
     app: {
-      name: 'bdw-blog'
+      name: 'demo-api'
     },
     port: 3000,
     db: 'mongodb://localhost/bdw-blog-test'
@@ -24,7 +24,7 @@ var config = {
   production: {
     root: rootPath,
     app: {
-      name: 'bdw-blog'
+      name: 'demo-api'
     },
     port: 3000,
     db: 'mongodb://localhost/bdw-blog-production'
